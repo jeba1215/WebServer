@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'download/index'
+
   get 'download/anime'
 
   get 'anime/index'

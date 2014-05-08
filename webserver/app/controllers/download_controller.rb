@@ -1,5 +1,5 @@
 class DownloadController < ApplicationController
-  def anime
+  def index
     @title = params[:title]
     @name = params[:name]
     @path = '/media/sf_Anime,_VN,_LN/Watching, not watched yet/'+@title+'/'+@name

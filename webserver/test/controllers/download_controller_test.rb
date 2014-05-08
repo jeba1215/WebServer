@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class DownloadControllerTest < ActionController::TestCase
-  test "should get anime" do
-    get :anime
+  test "should get index" do
+    get :index
     assert_response :success
   end
 
