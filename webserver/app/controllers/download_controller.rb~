@@ -1,0 +1,4 @@
+class DownloadController < ApplicationController
+  def anime
+  end
+end

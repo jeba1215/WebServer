@@ -1,0 +1,4 @@
+<h1>Animu!</h1>
+<% @files.each do |k,v| %>
+<h3> <%= link_to k, {controller: 'anime', action: 'index', title: k, episodes: v} %> </h3>
+<% end %>

@@ -1,0 +1,13 @@
+class Getfiles
+  def index
+    @files = get_files
+  end
+
+  def get_files
+    temp = []
+    Dir.entries("/media/").each do |x|
+      temp.push x
+    end
+    return temp
+  end
+end
