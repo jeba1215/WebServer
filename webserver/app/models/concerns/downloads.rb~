@@ -1,0 +1,6 @@
+module Download
+  extend ActiveSupport:Concern
+  def call_to_download
+    send_file( @path )
+  end
+end
